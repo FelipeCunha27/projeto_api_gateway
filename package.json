@@ -1,0 +1,16 @@
+{
+  "name": "projeto_api_gateway",
+  "version": "1.0.0",
+  "description": "Trabalho final da matéria de API Gateway",
+  "license": "ISC",
+  "author": "Felipe Cunha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
