@@ -27,7 +27,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/v1/peca",
+					"raw": "http://localhost:8000/api/v1/peca?apikey=gJn8nV566gN95zDqE9rmVrKde4qVmP8K",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -37,6 +37,12 @@
 						"api",
 						"v1",
 						"peca"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "gJn8nV566gN95zDqE9rmVrKde4qVmP8K"
+						}
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -63,7 +69,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/v1/peca/NBKG15",
+					"raw": "http://localhost:8000/api/v1/peca/NBKG15?apikey=gJn8nV566gN95zDqE9rmVrKde4qVmP8K",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -74,6 +80,12 @@
 						"v1",
 						"peca",
 						"NBKG15"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "gJn8nV566gN95zDqE9rmVrKde4qVmP8K"
+						}
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -100,7 +112,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/v1/peca/NBKG15/componentes",
+					"raw": "http://localhost:8000/api/v1/peca/NBKG15/componentes?apikey=gJn8nV566gN95zDqE9rmVrKde4qVmP8K",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -112,6 +124,12 @@
 						"peca",
 						"NBKG15",
 						"componentes"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "gJn8nV566gN95zDqE9rmVrKde4qVmP8K"
+						}
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -148,7 +166,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/v1/peca",
+					"raw": "http://localhost:8000/api/v1/peca?apikey=gJn8nV566gN95zDqE9rmVrKde4qVmP8K",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -158,6 +176,12 @@
 						"api",
 						"v1",
 						"peca"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "gJn8nV566gN95zDqE9rmVrKde4qVmP8K"
+						}
 					]
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
@@ -194,7 +218,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/v1/peca/NBKANV/componentes",
+					"raw": "http://localhost:8000/api/v1/peca/NBKANV/componentes?apikey=gJn8nV566gN95zDqE9rmVrKde4qVmP8K",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -206,6 +230,12 @@
 						"peca",
 						"NBKANV",
 						"componentes"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "gJn8nV566gN95zDqE9rmVrKde4qVmP8K"
+						}
 					]
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
